@@ -1,0 +1,153 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+.padding-h {
+    padding: 3%;
+}
+
+iframe {
+    width: 100%;
+    padding-top: 3%;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.column-f {
+    width: 50%;
+    float: left;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-3 {
+    width: 30%;
+    float: left;
+}
+
+.column-i {
+    width: 15%;
+    float: left;
+}
+
+.column-2 {
+    width: 55%;
+    float: left;
+    margin-left: 15%;
+    text-align: left;
+}
+
+.column-nav {
+    width: 15%;
+    float: left;
+    position: fixed;
+}
+
+#card-1 {
+    background-image: url(../img/torre-eiffel-hoy_f7a97d88_1200x1821.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-2 {
+    background-image: url(../img/Empire_State.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-3 {
+    background-image: url(../img/torre-inclinada-de-pisa.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-4 {
+    background-image: url(../img/toreagbar.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-5 {
+    background-image: url(../img/madridfurbo.jpeg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-6 {
+    background-image: url(../img/noticiaucrania.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#card-7 {
+    background-image: url(../img/avion.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+
+article {
+    background-color: rgb(227, 227, 227);
+}
+
+.padding-t {
+    padding-top: 5%;
+}
+
+.padding-t2 {
+    padding-top: 10%;
+}
+
+.padding {
+    padding: 5%;
+}
+
+.padding-a {
+    padding: 3%;
+}
+
+p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+    text-align: center;
+}
+
+h4 {
+    font-size: 3.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
