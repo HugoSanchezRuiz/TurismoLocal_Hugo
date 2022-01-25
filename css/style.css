@@ -37,11 +37,6 @@ body {
     float: left;
 }
 
-.column-i {
-    width: 15%;
-    float: left;
-}
-
 .column-2 {
     width: 55%;
     float: left;
@@ -112,10 +107,6 @@ article {
     padding-top: 5%;
 }
 
-.padding-t2 {
-    padding-top: 10%;
-}
-
 .padding {
     padding: 5%;
 }
@@ -150,4 +141,25 @@ h4 {
 a {
     text-decoration: none;
     color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    /*reglas*/
+    /* column-3 pasará de tener 33.33% a 100% */
+    .column-3 {
+        width: 100%;
+    }
+    /* column-4 pasará de tener 25% a 50% */
+    .column-4 {
+        width: 50%;
+    }
+    .column-nav {
+        width: 25%;
+        float: left;
+        position: relative;
+    }
+    .column-7 {
+        width: 100%;
+        margin-left: 0%;
+    }
 }
